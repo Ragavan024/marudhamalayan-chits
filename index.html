@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marudhamalayan Chit Funds</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #800000;
+      --accent: #f4d27a;
+      --background: #fff9ec;
+      --text: #3a2e2e;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('https://i.postimg.cc/wvh49CRp/murugan-statue-side-view-l5f2obxu455izxdn.webp') no-repeat center center fixed;
+      background-size: cover;
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .language-selector {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+    .language-selector select {
+      padding: 0.5rem;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .card {
+      background: #fffef8;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    .center-image {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .center-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .map-preview-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .map-preview-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .map {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 1rem;
+      border-radius: 25px;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      transition: background 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+    footer {
+      background: var(--primary);
+      color: #fdf3d4;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="language-selector">
+      <label for="language">🌐</label>
+      <select id="language" onchange="changeLanguage()">
+        <option value="en">English</option>
+        <option value="ta">தமிழ்</option>
+      </select>
+    </div>
+    <h1 id="title">Marudhamalayan Chit Funds</h1>
+    <p id="tagline">Reliable & Trusted Financial Solutions</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2 id="about-heading">About Us</h2>
+      <p id="about-text">Welcome to <strong>Marudhamalayan Chit Funds</strong>, your trusted partner for secure and flexible chit fund schemes. With a reputation for transparency and customer-centric values, we help individuals and families plan their financial future with confidence.</p>
+    </div>
+
+    <div class="card">
+      <h2 id="scheme-heading">Our Chit Schemes</h2>
+      <p id="scheme-text">We are updating our schemes section. Please contact us directly via WhatsApp or phone for the latest chit fund plans and details. We will update this section on the website very soon!</p>
+    </div>
+
+    <div class="card">
+      <h2>Gallery</h2>
+      <div class="center-image">
+        <img src="https://i.postimg.cc/Dy5DJ3jf/Whats-App-Image-2025-06-26-at-18-41-44-83ea61de.jpg" alt="Business Card">
+      </div>
+    </div>
+
+    <div class="card">
+      <h2 id="contact-heading">Contact Us</h2>
+      <p><strong>Address:</strong> 1, Murugan Nagar, Kaundampalayam</p>
+      <p><strong>Phone:</strong> <a href="tel:+919843875567">98438 75567</a></p>
+      <p><strong>Email:</strong> <a href="mailto:saranragavan1431@gmail.com">saranragavan1431@gmail.com</a></p>
+      <p><strong>WhatsApp:</strong> <a class="whatsapp-btn" href="https://wa.me/919843875567" target="_blank">💬 Chat with us on WhatsApp</a></p>
+      <p><strong>Google Map Link:</strong> <a href="https://maps.app.goo.gl/rYAueD2emYPJ7aA4A" target="_blank">View on Google Maps</a></p>
+      <div class="map-preview-container">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.960406398979!2d76.93449927505257!3d11.006140555426949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85f524da8ad15%3A0x6b9e7ad12e7d84b!2s1%2C%20Murugan%20Nagar%2C%20Kaundampalayam%2C%20Tamil%20Nadu%20641030!5e0!3m2!1sen!2sin!4v1719414150000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <img src="https://i.postimg.cc/K80RHj9X/f3aacb18cc1b7932e9ebec5a10c55423.jpg" alt="Map Preview Image">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Marudhamalayan Chit Funds. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function changeLanguage() {
+      const lang = document.getElementById('language').value;
+      const translations = {
+        en: {
+          title: "Marudhamalayan Chit Funds",
+          tagline: "Reliable & Trusted Financial Solutions",
+          "about-heading": "About Us",
+          "about-text": "Welcome to Marudhamalayan Chit Funds, your trusted partner for secure and flexible chit fund schemes. With a reputation for transparency and customer-centric values, we help individuals and families plan their financial future with confidence.",
+          "scheme-heading": "Our Chit Schemes",
+          "scheme-text": "We are updating our schemes section. Please contact us directly via WhatsApp or phone for the latest chit fund plans and details. We will update this section on the website very soon!",
+          "contact-heading": "Contact Us"
+        },
+        ta: {
+          title: "மருதமலையன் சிட் ஃபண்ட்ஸ்",
+          tagline: "நம்பகமான மற்றும் விசுவாசமான நிதி தீர்வுகள்",
+          "about-heading": "எங்களை பற்றி",
+          "about-text": "மருதமலையன் சிட் ஃபண்ட்ஸில் உங்களை வரவேற்கிறோம். பாதுகாப்பான மற்றும் நெகிழ்வான சிட் திட்டங்களை வழங்கும் நம்பகமான பங்குதாரராக நாங்கள் செயல்படுகிறோம்.",
+          "scheme-heading": "எங்கள் சிட் திட்டங்கள்",
+          "scheme-text": "எங்கள் சிட் திட்டங்கள் விரைவில் புதுப்பிக்கப்படும். தயவுசெய்து WhatsApp அல்லது தொலைபேசி மூலம் தொடர்பு கொள்ளவும்.",
+          "contact-heading": "தொடர்பு கொள்ள"
+        }
+      };
+
+      const t = translations[lang];
+      for (let key in t) {
+        const element = document.getElementById(key);
+        if (element) element.innerText = t[key];
+      }
+    }
+  </script>
+</body>
+</html>
